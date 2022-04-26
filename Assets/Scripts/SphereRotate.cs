@@ -16,6 +16,6 @@ public class SphereRotate : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.RotateAround(cube.transform.position, Vector3.up, rotateSpeed * Time.deltaTime);
+        transform.RotateAround(cube.transform.position, Vector3.back, rotateSpeed * Time.deltaTime);
     }
 }
